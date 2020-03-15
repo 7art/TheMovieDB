@@ -1,0 +1,8 @@
+.list-item:hover {
+  background-color: #3273dc;
+  color: #fff;
+}
+
+progress.hide {
+  display: none;
+}

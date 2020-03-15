@@ -1,2 +1,0 @@
-# TheMovieDB
-Created with CodeSandbox

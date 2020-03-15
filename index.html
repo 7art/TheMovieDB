@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+    <script src="src/index.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <section class="hero is-info">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+              The Movie Database
+            </h1>
+            <h2 class="subtitle">
+              SPA
+            </h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="field is-grouped">
+            <p class="control is-expanded">
+              <input
+                id="search-movie"
+                class="input"
+                type="text"
+                placeholder="Find a movie..."
+              />
+            </p>
+            <p class="control">
+              <a class="button is-info" id="search-btn">
+                Search
+              </a>
+            </p>
+          </div>
+          <div id="root">
+            <progress
+              class="progress is-large is-info hide"
+              id="progress"
+              max="100"
+              >60%</progress
+            >
+            <div id="list-movies"></div>
+            <div id="movie"></div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <strong>The Movie Database</strong>
+            <a href="#">SPA</a>.
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
